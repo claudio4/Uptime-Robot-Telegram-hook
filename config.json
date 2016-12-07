@@ -1,0 +1,8 @@
+{
+  //listen port
+  "port": 8080,
+  //Id of the user who gonna be alerted
+  "telegramUserId": "",
+  //Token of the telegram bot
+  "telegramBotToken": ""
+}

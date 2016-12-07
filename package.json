@@ -1,0 +1,31 @@
+{
+  "name": "uptime-robot-telegram-hook",
+  "version": "0.0.1",
+  "description": "A telegram hook for Uptime robot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudio4/Uptime-Robot-Telegram-hook.git"
+  },
+  "keywords": [
+    "UptimeRobot",
+    "Telegram",
+    "Chat",
+    "Server monitor"
+  ],
+  "author": "Claudio4 <me@claudio4.com> (https://claudio4.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/claudio4/Uptime-Robot-Telegram-hook/issues"
+  },
+  "homepage": "https://github.com/claudio4/Uptime-Robot-Telegram-hook#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "typings": "^2.0.0"
+  }
+}
