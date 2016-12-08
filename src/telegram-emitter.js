@@ -5,6 +5,7 @@ module.exports =  function(token, chat, data) {
   var post_data = JSON.stringify({
     "chat_id": chat,
     "text": msgComposer(data),
+    "parse_mode": true,
     "disable_web_page_preview": true
   });
   var post_options = {
