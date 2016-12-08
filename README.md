@@ -40,12 +40,12 @@ At the *hookKey* field type some random password.
 ### 6º. Setting your hook
 Now you only need to go to your [UptimeRobot](https://uptimerobot.com/) dashboard, and in settings, "Add Alert Contacts".
 
-Now set the Web-Hook in the type field, when you are done set the name you prefer and in the URL parameter put the URL of your webhook.
+Now set the Web-Hook in the type field, when you are done set the name you prefer and in the URL parameter type the URL of your webhook.
 In the "POST Value" type the next text but change the hookKey with the password you set in the config file.
 
 ```
 {
-	"key": "PUT YOUR PASS",
+	"key": "TYPE YOUR PASS",
 	"monitorID": "*monitorID*",
 	"monitorURL": "*monitorURL*",
 	"monitorFriendlyName": "*monitorFriendlyName*",
