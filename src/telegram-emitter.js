@@ -17,12 +17,6 @@ module.exports =  function(token, chat, data) {
           'Content-Length': Buffer.byteLength(post_data)
       }
   };
-  https.request(post_options, function(res) {
-      res.setEncoding('utf8');
-      res.on('data', function (chunk) {
-          console.log('Response: ' + chunk);
-          console.log('end');
-      });
-  }).end(post_data);
+  https.request(post_options).end(post_data);
 }
 
