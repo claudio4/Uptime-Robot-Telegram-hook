@@ -1,6 +1,6 @@
 # UptimeRobot Telegram-hook
 
-This project is a simple webhook for UptimeRobot who sends you a telegram message.
+This project is a simple webhook for UptimeRobot that sends you a telegram message.
 
 ## How to install
 This hook require [NodeJS](https://nodejs.org/es/), so you must install it in your machine.
@@ -9,11 +9,11 @@ This hook require [NodeJS](https://nodejs.org/es/), so you must install it in yo
 ```
 git clone https://github.com/claudio4/Uptime-Robot-Telegram-hook.git
 ```
-or in case you doesn't have git
+or in case you don't have git
 ```
 wget -O master.zip; unzip master.zip; rm master.zip
 ```
-### 2º. Install dependecies
+### 2º. Install dependencies
 First you must move to project directory and runs this command:
 ```
 npm install
@@ -21,9 +21,9 @@ npm install
 ### 3º. Get a Telegram token
 
 * Open a chat with [@BotFather](https://telegram.me/BotFather).
-* Send to him **/newbot** and after his answer, send the name of your bot.
-* Now send him the alias of your new bot.
-* After that the bot Father gives you the token, you must save this.
+* Type **/newbot** and after its message type your bot's name.
+* Now, type your bot's alias.
+* When you're done the BotFather will give you the token, you must save this code.
 
 ### 4º. Getting your chat id.
 
@@ -31,17 +31,17 @@ npm install
 * Now go to https://api.telegram.org/botYOUR_TOKEN_ID/getUpdates
 * And save your chat id.
 
-### 5º. Making the config
-You must copy hook.example.json and call it config.json.
-After that you only need fill all fields in the file.
+### 5º. Creating the config file
+You must copy *hook.example.json* and call it *config.json*.
+After that you only need to fill all fields in the file.
 
-At the hookKey field put some randond password.
+At the *hookKey* field type some random password.
 
 ### 6º. Setting your hook
-Now you only need go to your [UptimeRobot](https://uptimerobot.com/) dashboard, and in settings, "Add Alert Contacts".
+Now you only need to go to your [UptimeRobot](https://uptimerobot.com/) dashboard, and in settings, "Add Alert Contacts".
 
-Now set Web-Hook in the type field, after set the name you prefer and in URL put the URL of your webhook.
-in POST Value put the next text, but change the hookKey by the pass you set in the config file.
+Now set the Web-Hook in the type field, when you are done set the name you prefer and in the URL parameter put the URL of your webhook.
+In the "POST Value" type the next text but change the hookKey with the password you set in the config file.
 
 ```
 {
@@ -55,7 +55,7 @@ in POST Value put the next text, but change the hookKey by the pass you set in t
 }
 ```
 
-Now add the contact to your machines.
+Now add the contact to your monitors.
 
 ### 7. Start your hook
 Now you only need run the next command.
