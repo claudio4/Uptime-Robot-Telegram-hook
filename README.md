@@ -58,7 +58,7 @@ In the "POST Value" type the next text but change the hookKey with the password 
 Now add the contact to your monitors.
 
 ### 7. Start your hook
-Now you only need run the next command.
+Now you only need to run the next command.
 
 ```
 npm start
